@@ -37,3 +37,4 @@ lerna-debug.log*
 # environment variables & package-lock.json
 .env
 package-lock.json
+# .parcel-cache

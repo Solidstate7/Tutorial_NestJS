@@ -20,7 +20,7 @@ export class AuthService {
     // Hash the users password
     // Generate a salt
     const salt = randomBytes(8).toString('hex');
-    // Hast the salt and the password together
+    // Hash the salt and the password together
     const hash = (await scrypt(password, salt, 32)) as Buffer;
     // Join the hased result and the salt together
     const result = salt + '.' + hash.toString('hex');

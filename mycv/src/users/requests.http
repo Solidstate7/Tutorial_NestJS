@@ -41,7 +41,7 @@ Content-Type: application/json
 }
 
 ### Set a color
-GET http://localhost:3000/auth/colors/blue
+GET http://localhost:3000/auth/colors/bluef
 
 ### Get a color
 GET http://localhost:3000/auth/colors/
